@@ -4,19 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
     "@prisma/client": "^5.22.0",
-    "@upstash/ratelimit": "^2.0.8",
-    "@upstash/redis": "^1.38.0",
     "bcryptjs": "^3.0.3",
     "next": "14.2.35",
     "next-auth": "^5.0.0-beta.31",
-    "pg": "^8.21.0",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.76.1",
@@ -26,7 +23,6 @@
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
-    "@types/pg": "^8.20.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
@@ -37,3 +33,9 @@
     "typescript": "^5"
   }
 }
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
